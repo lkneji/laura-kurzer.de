@@ -1,0 +1,37 @@
+
+body {
+	background-color: #F2F1ED;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+
+}
+
+header #social_links {
+	height: 50px;
+}
+
+header #banner {
+	background-image: url(muster_vodelkrallen.png);
+	background-image: url(muster_vodelkrallen.png), -webkit-linear-gradient(left, #45BABC, #339999); 
+	background-image: url(muster_vodelkrallen.png), -moz-linear-gradient(left, #45BABC, #339999); 
+	background-image: url(muster_vodelkrallen.png), -o-linear-gradient(left, #45BABC, #339999); 
+	background-image: url(muster_vodelkrallen.png), linear-gradient(left, #45BABC, #339999);
+
+	height: 300px;
+}
+
+
+header, #content {
+	width: 1000px;
+	margin: 0 auto;
+	
+}
+
+
+#content p {
+	width: 50%;
+	float: right;
+}
